@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator", "BowlingScoreCalculator\BowlingScoreCalculator.csproj", "{D58744F7-2EBA-4B22-8915-2D247C37FEDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.Logic", "BowlingScoreCalculator.Logic\BowlingScoreCalculator.Logic.csproj", "{4506C6DE-6FD3-46E8-ABA3-F4DF1CB84855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.Logic.Tests", "BowlingScoreCalculator.Logic.Tests\BowlingScoreCalculator.Logic.Tests.csproj", "{A89CC8A4-DB8B-4214-945A-9BD0957E78E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D58744F7-2EBA-4B22-8915-2D247C37FEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D58744F7-2EBA-4B22-8915-2D247C37FEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D58744F7-2EBA-4B22-8915-2D247C37FEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4506C6DE-6FD3-46E8-ABA3-F4DF1CB84855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4506C6DE-6FD3-46E8-ABA3-F4DF1CB84855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4506C6DE-6FD3-46E8-ABA3-F4DF1CB84855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4506C6DE-6FD3-46E8-ABA3-F4DF1CB84855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89CC8A4-DB8B-4214-945A-9BD0957E78E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89CC8A4-DB8B-4214-945A-9BD0957E78E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89CC8A4-DB8B-4214-945A-9BD0957E78E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89CC8A4-DB8B-4214-945A-9BD0957E78E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
